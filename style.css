@@ -22,7 +22,7 @@ body {
   width: 25rem;
   background-color: var(--form_background);
   margin: 1rem auto 1rem auto;
-  border-radius: var(--rad_big);
+  border-radius: var(--rad_big) var(--rad_big) var(--rad) var(--rad);
 }
 .main_block_title {
   display: flex;
