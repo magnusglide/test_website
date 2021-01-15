@@ -5,7 +5,7 @@ function calculateTip() {
   var people = document.getElementById("people").value;
 
   //validate input
-  if (isNaN(bill) || bill === "" || service == 0) {
+  if (isNaN(bill) || bill === "" || isNaN(people) || service == 0) {
     alert("Please enter correct values");
     return;
   }
