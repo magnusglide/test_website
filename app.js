@@ -14,6 +14,7 @@ function calculateTip() {
   if (people === "" || people <= 1) {
     people = 1;
     document.getElementById("each").style.display = "none";
+    document.getElementById("people").value = "1";
   } else {
     document.getElementById("each").style.display = "inline";
   }
