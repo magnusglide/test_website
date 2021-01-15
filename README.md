@@ -1,2 +1,2 @@
 # test_website
-Just testing github hosting and practising Javascript
+Practising HTML, CSS and Javascript
