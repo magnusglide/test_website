@@ -13,6 +13,8 @@ people.addEventListener("input", function () {
   validateInput(people);
 });
 
+//Automaticly validates input on client side and changes border color to show
+//whether the input is valid
 function validateInput(x) {
   if (x.value == "") {
     x.style.borderColor = "black";
@@ -27,8 +29,6 @@ function validateInput(x) {
 }
 function validateSelect(x) {
   if (x.value == 0) {
-    // x.style.borderColor = "black";
-    // x.style.boxShadow = "none";
     x.style.borderColor = "red";
     x.style.boxShadow = "0 0 0.3rem red";
   } else {
@@ -42,7 +42,7 @@ service.addEventListener("change", validateAllInput);
 people.addEventListener("change", validateAllInput);
 calculate.disabled = true;
 
-//validate input
+//Validate input of the form (of bill service and people)
 function validateAllInput() {
   if (bill.value >= 1 && service.value != 0 && people.value >= 1) {
     calculate.disabled = false;
@@ -52,7 +52,8 @@ function validateAllInput() {
 }
 
 function calculateTip() {
-  //check input of people
+  //check the amount of people
+  //if more than 1 person - the word "each" will appear next to the $ tipp
   if (people.value == 1) {
     document.getElementById("each").style.display = "none";
   } else {
