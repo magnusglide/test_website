@@ -5,4 +5,7 @@ Easy project but it has input validation on client side
 with nice border changing validation
 
 
-https://user-images.githubusercontent.com/76588711/120902929-5b315400-c643-11eb-8bfb-c15693ad4320.mp4
+
+https://user-images.githubusercontent.com/76588711/120902963-89af2f00-c643-11eb-99ac-0a197350044e.mp4
+
+
